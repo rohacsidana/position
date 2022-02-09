@@ -1,50 +1,48 @@
 <!DOCTYPE html>
 <html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kriszti & Dana</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kriszti & Dana</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
+    <body>
+        <header>
+            <p>szia</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Menü 1</a></li>
+                    <li class="legordulo">
+                        <a href="#">Menü 2</a>
+                        <ul class="legordulo-elem">
+                            <li><a href="#">Almenü 1</a></li>
+                            <li><a href="#">Almenü 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Menü 3</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<body>
-    <header>
-        <p>szia</p>
-        <nav>
-            <ul>
-                <li><a href="#">Menü 1</a></li>
-                <li class="legordulo">
-                    <a href="#">Menü 2</a>
-                    <ul class="legordulo-elem">
-                        <li><a href="#">Almenü 1</a></li>
-                        <li><a href="#">Almenü 2</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Menü 3</a></li>
-            </ul>
-        </nav>
-    </header>
+        <div>
+            <h1>Position</h1>
+            <img src="kepek/$ N_200.jpg" alt="kep1" />
+            <img src="kepek/N_200.jpg" alt="kep2" />
+            <img src="kepek/Nn_200.jpg" alt="kep3" />
+        </div>
+        <img src="kepek/N_200.jpg" alt="nagy" />
+        <form id="urlap" action="/action_page.php">
+            <span id="X"><a href="#">&#128507;</a></span>
+            <fieldset>
+                <legend>Szereted az állatokat?</legend>
 
-    <div>
-        <h1>Position</h1>
-        <img src="kepek/$ N_200.jpg" alt="kep1" />
-        <img src="kepek/N_200.jpg" alt="kep2" />
-        <img src="kepek/Nn_200.jpg" alt="kep3" />
-    </div>
-    <img src="kepek/N_200.jpg" alt="nagy" />
-    <form action="/action_page.php">
-        <fieldset>
-            <span><a href="#">&#128507;</a></span>
-            <legend>Szereted az állatokat?</legend>
-
-            <input type="radio" id="igen" name="igen" />
-            <label for="igen">Igen </label><br /><br />
-            <input type="radio" id="nem" name="nem" />
-            <label for="nem">Nem </label><br /><br />
-        </fieldset>
-    </form>
-</body>
-
+                <input type="radio" id="igen" name="igen" />
+                <label for="igen">Igen </label><br /><br />
+                <input type="radio" id="nem" name="nem" />
+                <label for="nem">Nem </label><br /><br />
+            </fieldset>
+        </form>
+    </body>
 </html>
