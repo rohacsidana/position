@@ -1,65 +1,82 @@
 <!DOCTYPE html>
 <html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kriszti & Dana</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="kepek.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kriszti & Dana</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Menü 1</a></li>
+                    <li class="legordulo">
+                        <a href="#">Menü 2</a>
+                        <ul class="legordulo-elem">
+                            <li><a href="#">Almenü 1</a></li>
+                            <li><a href="#">Almenü 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Menü 3</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <nav class="kepek">
+                <ul>
+                    <li class="kepeklegordulo">
+                        <img src="kepek/$ N_200.jpg" alt="" srcset="" />
+                        <ul class="kepeklegordulo-elem">
+                            <li>
+                                <img
+                                    src="kepek/tumblr_phkozt6AB61vf93px_1280.jpg"
+                                    alt=""
+                                    srcset=""
+                                />
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="kepeklegordulo">
+                        <img src="kepek/N_200.jpg" alt="" srcset="" />
+                        <ul class="kepeklegordulo-elem">
+                            <li>
+                                <img
+                                    src="kepek/cute-baby-animals-2.jpg"
+                                    alt=""
+                                    srcset=""
+                                />
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="kepeklegordulo">
+                        <img src="kepek/Nn_200.jpg" alt="" srcset="" />
+                        <ul class="kepeklegordulo-elem">
+                            <li>
+                                <img
+                                    src="kepek/lionel-animals-to-follow-on-instagram-1568319926.jpg"
+                                    alt=""
+                                    srcset=""
+                                />
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <form id="urlap" action="/action_page.php">
+                <span id="X"><a href="#">&#128507;</a></span>
+                <fieldset>
+                    <legend>Szereted az állatokat?</legend>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Menü 1</a></li>
-                <li class="legordulo">
-                    <a href="#">Menü 2</a>
-                    <ul class="legordulo-elem">
-                        <li><a href="#">Almenü 1</a></li>
-                        <li><a href="#">Almenü 2</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Menü 3</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h1>leszopsz</h1>
-    <article>
-        <h1>Position</h1>
-        <div class="kepekdiv">
-            <div class="kiskep1">
-                <img src="kepek/$ N_200.jpg" alt="kep1" />
-                <div class="nagykep1">
-                    <img src="kepek/$ N_200.jpg" alt="kep1" />
-                </div>
-            </div>
-            <div class="kiskep2">
-                <img src="kepek/N_200.jpg" alt="kep1" />
-                <div class="nagykep2">
-                    <img src="kepek/N_200.jpg" alt="kep1" />
-                </div>
-            </div>
-            <div class="kiskep3">
-                <img src="kepek/Nn_200.jpg" alt="kep1" />
-                <div class="nagykep3">
-                    <img src="kepek/Nn_200.jpg" alt="kep1" />
-                </div>
-            </div>
-        </div>
-        <form id="urlap" action="/action_page.php">
-            <span id="X"><a href="#">&#128507;</a></span>
-            <fieldset>
-                <legend>Szereted az állatokat?</legend>
-
-                <input type="radio" id="igen" name="igen" />
-                <label for="igen">Igen </label><br /><br />
-                <input type="radio" id="nem" name="nem" />
-                <label for="nem">Nem </label><br /><br />
-            </fieldset>
-        </form>
-    </article>
-</body>
-
+                    <input type="radio" id="igen" name="igen" />
+                    <label for="igen">Igen </label><br /><br />
+                    <input type="radio" id="nem" name="nem" />
+                    <label for="nem">Nem </label><br /><br />
+                </fieldset>
+            </form>
+        </article>
+    </body>
 </html>

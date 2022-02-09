@@ -8,26 +8,28 @@
     list-style-type: none;
 }
 
-.kepek>ul {
+.kepek > ul {
     display: grid;
     grid-template-columns: 250px 250px 250px;
 }
 
-.kepeklegordulo {
+.kepek {
     position: relative;
 }
 
 .kepeklegordulo-elem {
     display: none;
-    position: relative;
+    position: absolute;
     align-items: center;
-    background-color: aquamarine;
-    top: 100px;
+    /*background-color: aquamarine;*/
+    /*top: 100px;*/
+    left: 0px;
 }
 
 .kepeklegordulo-elem img {
     text-align: center;
     margin-top: 5px;
+    width: 750px;
 }
 
 .kepeklegordulo:hover .kepeklegordulo-elem {
