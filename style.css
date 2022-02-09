@@ -8,23 +8,22 @@ nav ul {
     list-style-type: none;
 }
 
-nav ul li {
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
 nav ul a {
     text-decoration: none;
     display: block;
     background-color: rgb(85, 85, 85);
-    padding: 25px;
     color: whitesmoke;
+    text-align: center;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
 }
 
 nav>ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 120px 120px 120px;
 }
 
 .legordulo {
@@ -35,6 +34,12 @@ nav>ul {
     display: none;
     position: absolute;
     z-index: 20;
+}
+
+.legordulo-elem a {
+    background-color: azure;
+    color: black;
+    text-align: center;
 }
 
 .legordulo:hover .legordulo-elem {
