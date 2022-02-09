@@ -28,7 +28,7 @@ nav ul a {
     margin-top: 20px;
 }
 
-nav>ul {
+nav > ul {
     display: grid;
     grid-template-columns: 120px 120px 120px;
 }
@@ -55,14 +55,19 @@ nav .legordulo-elem a {
 nav .legordulo:hover .legordulo-elem {
     display: block;
 }
-
+article {
+    position: relative;
+    background-color: black;
+}
 #urlap {
     width: 400px;
     z-index: 10;
     position: absolute;
-    right: 50%;
+
+    left: calc(50% - 200px);
     top: 50%;
     background-color: white;
+    border: 1px solid black;
 }
 
 #X {
@@ -70,14 +75,16 @@ nav .legordulo:hover .legordulo-elem {
     border-radius: 5px;
     position: relative;
     left: 90%;
+    top: 90%;
     background-color: rgb(227, 142, 253);
 }
 
 fieldset {
     margin: 15px;
 }
-
-.nagykep2,
-.nagykep3 {
+.hide {
     display: none;
+}
+.kepekdiv {
+    text-align: center;
 }
