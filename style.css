@@ -12,4 +12,11 @@ nav ul a {
     display: block;
     background-color: rgb(85, 85, 85);
     padding: 25px;
+    color: whitesmoke;
+}
+
+nav>ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
