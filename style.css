@@ -63,3 +63,7 @@ nav > ul {
 fieldset {
     margin: 15px;
 }
+.nagykep2,
+.nagykep3 {
+    display: none;
+}
