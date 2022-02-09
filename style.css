@@ -69,6 +69,7 @@ nav>ul {
     padding: 5px;
     border-radius: 5px;
     position: relative;
+    left: 90%;
     background-color: rgb(227, 142, 253);
 }
 
