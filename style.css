@@ -60,10 +60,15 @@ nav > ul {
     left: 90%;
     background-color: rgb(227, 142, 253);
 }
+.kepekdiv {
+    text-align: center;
+}
 fieldset {
     margin: 15px;
 }
-.nagykep2,
+/*.nagykep2,
 .nagykep3 {
     display: none;
+    position: absolute;
 }
+*/
