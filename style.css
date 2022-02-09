@@ -33,11 +33,11 @@ nav>ul {
     grid-template-columns: 120px 120px 120px;
 }
 
-.legordulo {
+nav .legordulo {
     position: relative;
 }
 
-.legordulo-elem {
+nav .legordulo-elem {
     display: none;
     position: absolute;
     margin: 5px;
@@ -45,14 +45,14 @@ nav>ul {
     z-index: 20;
 }
 
-.legordulo-elem a {
+nav .legordulo-elem a {
     background-color: azure;
     color: black;
     text-align: center;
     margin-top: 5px;
 }
 
-.legordulo:hover .legordulo-elem {
+nav .legordulo:hover .legordulo-elem {
     display: block;
 }
 

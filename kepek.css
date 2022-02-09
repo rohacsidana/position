@@ -1,0 +1,35 @@
+.kepek {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.kepek ul {
+    list-style-type: none;
+}
+
+.kepek>ul {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+}
+
+.kepeklegordulo {
+    position: relative;
+}
+
+.kepeklegordulo-elem {
+    display: none;
+    position: relative;
+    align-items: center;
+    background-color: aquamarine;
+    top: 100px;
+}
+
+.kepeklegordulo-elem img {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.kepeklegordulo:hover .kepeklegordulo-elem {
+    display: block;
+}
