@@ -21,7 +21,7 @@ nav ul a {
     padding: 5px;
 }
 
-nav>ul {
+nav > ul {
     display: grid;
     grid-template-columns: 120px 120px 120px;
 }
@@ -44,4 +44,22 @@ nav>ul {
 
 .legordulo:hover .legordulo-elem {
     display: block;
+}
+#urlap {
+    width: 400px;
+    z-index: 10;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    background-color: white;
+}
+#X {
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(227, 142, 253);
+    
+}
+fieldset{
+    margin: 15px;
 }
